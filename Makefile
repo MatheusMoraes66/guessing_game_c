@@ -3,7 +3,7 @@ CFLAGS = -Wall -Wextra -std=c99
 SRC_DIR = src
 INC_DIR = include
 BUILD_DIR = build
-TARGET = hangman_game
+TARGET = guessing_game
 SRCS = $(wildcard $(SRC_DIR)/*.c)
 OBJS = $(patsubst $(SRC_DIR)/%.c, $(BUILD_DIR)/%.o, $(SRCS))
 
